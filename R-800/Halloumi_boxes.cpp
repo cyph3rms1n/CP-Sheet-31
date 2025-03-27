@@ -75,15 +75,15 @@ void solve() {
 
         vector < int > arr(n);
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) {  // tc - O(n)
                 cin >> arr[i];
         }
 
-        vector < int > copy_arr = arr;
-        sort(copy_arr.begin(), copy_arr.end());
+        vector < int > copy_arr = arr; // tc - O(n)
+        sort(copy_arr.begin(), copy_arr.end()); // tc - O(n)
 
         // If my array is already sorted
-        if (copy_arr == arr || k > 1) cout << "YES" << endl;
+        if (copy_arr == arr || k > 1) cout << "YES" << endl; // tc - O(n) for the comparison between copy_arr and arr.
         else cout << "NO" << endl;
 }
 
@@ -97,3 +97,6 @@ signed main() {
         }
         return 0;
 }
+
+// tc - O(nlogn)
+// sc - O(n)
