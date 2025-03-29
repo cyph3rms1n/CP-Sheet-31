@@ -1,5 +1,5 @@
-//////////////////////////////////////////////////////////////////////////////////////
-//// codeforces.com/problemset/problem/1900/A
+// codeforces.com/problemset/problem/1900/A
+// Cover in Water
 /**
  * Author: k7
  **/
