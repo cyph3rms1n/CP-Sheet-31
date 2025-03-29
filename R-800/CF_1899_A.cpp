@@ -75,9 +75,11 @@ void solve() {
         int n;
         cin >> n;
 
-        if (n % 3 == 0) cout << "Second" << endl;
-        if (n % 3 == 1) cout << "First" << endl;
-        if (n % 3 == 2) cout << "First" << endl;
+        if (n % 3 == 0)
+                cout << "Second" << endl;
+        else
+                cout << "First" << endl;
+
 }
 
 signed main() {
