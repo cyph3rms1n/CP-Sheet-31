@@ -1,5 +1,5 @@
 // codeforces.com/problemset/problem/1875/A
-// A. Jellyfish and Undertale
+// A. Jellyfish and Undertale 
 
 /**
  * Author: k7
