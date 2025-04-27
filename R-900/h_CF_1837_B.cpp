@@ -73,11 +73,16 @@ void solve() {
         string str;
         cin >> str;
         int cost = 1;
+        int temp = 1;
 
         for (int i = 0; i < n - 1; i++) {
-                if (str[i] == str[i + 1]) cost++;
-                else cost = 1;
+                if (str[i] == str[i + 1]) temp++;
+                else {
+                        cost = max(cost, temp);
+                        temp = 1;
+                }
         }
+        cost = max(cost, temp);
 
         cout << cost + 1 << endl;
 }
