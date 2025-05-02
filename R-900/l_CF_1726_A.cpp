@@ -1,4 +1,4 @@
-// codeforces.com/problemset/problem/1726/A
+// codeforces.com/problemset/problem/1726/A 
 // A. Mainak and Array
 
 /**
