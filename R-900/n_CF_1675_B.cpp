@@ -1,3 +1,6 @@
+// codeforces.com/problemset/problem/1675/B
+// B. Make It Increasing
+
 /**
  * Author: k7
  **/
